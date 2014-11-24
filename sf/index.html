@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<link rel="stylesheet"type="text/css" href="style.css">
+		
+	<meta charset="utf-8">
+			<meta name="Description" content="SF Changes">
+			<meta name="viewport" content="width=device-midth, height=device-height">
+
+
+			 <!--Fonts-->
+			 <div class="uberContainer">
+<title>Valencia Changes</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+	</head>
+	<body>
+<h1>Valencia Changes</h1>
+<h2>Valencia Street, San Francisco, between 18th and 19th Streets</h2>
+<!-- <div class="blocks1div">
+<img src="img/blocks1.png">
+</div> -->
+<!-- <img src="img/blocks2.png"> -->
+<!-- <label for=fader>Volume</label> -->
+<!-- <input type=range min=2004 max=2014 value=1 id=fader>
+ -->
+ <div class="wholeChart">
+ 	
+    <img id="blocks">
+     	 <span id="range">0</span>
+
+
+    <!-- valR is the value of the year, aka the range -->
+  <input id="sliderMove" 
+  type="range" min="2006" max="2014" value="0" step="1" oninput="showVal(this.value)" onchange="showVal(this.value)"/>
+
+<script>
+
+    var startPlace = $("#sliderMove").val();
+    $("#range").html(startPlace);
+    $("#blocks").attr('src',"img/blocks" + startPlace + ".png");
+
+    function showVal(currentPlace){
+      $("#range").html(currentPlace);
+      $("#blocks").attr('src', "img/blocks" + currentPlace + ".png");
+    }
+
+</script>
+</div> <!-- wholechart -->
+<div class="textBlock">
+<p>Sustainable viral food truck, tousled mixtape drinking vinegar roof party. Chambray craft beer yr Helvetica, vinyl mixtape fap selvage. Shoreditch seitan four dollar toast, yr American Apparel craft beer fingerstache tote bag Truffaut High Life ethical mustache single-origin coffee tilde. Literally letterpress cronut, migas keytar hashtag scenester cray 3 wolf moon lomo master cleanse chillwave craft beer. Sustainable Echo Park Tonx Marfa tofu slow-carb Thundercats, yr farm-to-table fap tousled food truck distillery narwhal hella. Bitters photo booth artisan Williamsburg kale chips. Selvage typewriter pug listicle hashtag.</p>
+
+<p>Listicle twee mumblecore post-ironic four loko, lomo ethical drinking vinegar lumbersexual. IPhone church-key bitters, cray Brooklyn Cosby sweater pickled occupy Williamsburg Etsy four dollar toast lo-fi. Mumblecore leggings Godard, hoodie viral banh mi tofu four loko cornhole. Meh bitters kogi Bushwick, Blue Bottle Banksy try-hard synth mumblecore plaid tofu disrupt. Whatever Odd Future scenester, High Life Carles salvia yr bicycle rights fap keytar occupy Intelligentsia gluten-free tilde. High Life occupy lumbersexual jean shorts kale chips banh mi. Mustache pour-over iPhone leggings PBR&B actually.</p>
+</div>
+</div> <!-- ubercontainer -->
+
+	</body>
+	</html>
