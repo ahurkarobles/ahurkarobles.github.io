@@ -20,6 +20,10 @@
   text-align: center;
 }
 
+a{
+	text-decoration: none;
+}
+
 ul.top-nav{
 	display: inline;
 	width:100%;
@@ -32,36 +36,33 @@ a.top-nav{
 	}
 
 a.top-nav:hover{
-	color:#1796CF;
+	color:grey;
 	}
+
 
 li.top-nav{
  		display:inline;
  		color:white;
  		padding: 0px 40px 0px 0px;
- 		font-family: Gotham, sans-sarif;
+ 		font-family: Futura, sans-sarif;
  		text-transform: uppercase;
- 		font-size: 18px;
- 		font-weight: 0; 
+ 		font-size: 17px;
+ 		font-weight: 800; 
 
  	}
 
 html{
 	font-size: 13px;
-	background-color: #FFECDB;
+	background-color: white;
 }
 
-.topimg{
-	width: 100
-
-}
 
 .sketch{
-	width:500px;
+	width:550px;
 	display: block;
 	position: fixed;
 	z-index: -100;
-	margin: 100px 460px;
+	margin: 80px 500px;
 
 }
 
@@ -72,7 +73,7 @@ html{
 }
 
 .ahr{
-	margin-top: 50px;
+	margin-top: 80px;
 	width:350px;
 	position: relative;
 	float: center;
@@ -91,7 +92,10 @@ h1{
 
 h2{
 font-size: 1.5em;
-	font-family: futura;}	
+	font-family: futura;
+	text-transform: uppercase;
+
+}	
 
 	p{
 		font-size: 1em;
@@ -121,38 +125,70 @@ font-size: 1.5em;
 	.pro1{
 		width:190px;
 		position: relative;
+		display: block;
 		height: 190px;
-		background-color:white;
-		border: solid 1px black;
+		border: solid 1px grey;
 		float: left;
-
+		background-image: url("img/fresh-text-banana-logo.png");
+		background-color: white;
 
 	}
+
+	.pro1:hover{
+		border: solid 1px black;
+	}
+
+	/*.pro1:after{
+		 content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/fresh-text-banana-logo.png"); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
+	}*/
+
 
 	.pro2{
 		width:190px;
+				position: relative;
 		height: 190px;
 		background-color:white;
-		border:solid 1px black;
+		border: solid 1px grey;
+		
 	float:right;
+	background-image: url("img/urban-change-logo.png")
 		
 	}
 
+	.pro2:hover{
+		border: solid 1px black;
+	}
+
 	.pro3{
+				position: relative;
+
 		margin-top: 10px;
 		width:190px;
 		height: 190px;
 		background-color:white;
-		border:solid 1px black;
+		border: solid 1px grey;
 		float:left;
+			background-image: url("img/womens-ilab-mockup.png")
+
 	}
 
 	.pro4{
+				position: relative;
+
 		margin-top: 10px;
 		width:190px;
 		height: 190px;
 		background-color:white;
-		border:solid 1px black;
+		border: solid 1px grey;
 			float:right;
 
 		
@@ -164,3 +200,20 @@ font-size: 1.5em;
 	width:50%;
 	height:50%;
 }
+
+span{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  /* edit: added z-index */
+  z-index: 1;
+
+  /* edit: fixes overlap error in IE7/8, 
+     make sure you have an empty gif */
+  background-image: url('empty.gif');
+}  
+
+

@@ -1,14 +1,31 @@
 
+@import url(http://fonts.googleapis.com/css?family=Emblema+One);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:400,900);
+@import url(http://fonts.googleapis.com/css?family=Copse);
+
 html{
 /*	background-color: #446CB3;  san marino*/
 /*	background-color: #4183D7;
 	background-color: #2574A9;*/
-	background-color: #2574A9;
+	/*background-color: #2574A9;*/
 	background-color: #34495E;
+	background-color: #22313F;
+	
+
+}
+
+/*content wrapper 1*/
+.grandparent{
+	margin: 0 auto;
+	width:500px;
 }
 
 .uberContainer{
-	margin-left: 30px;
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0px auto 0px auto;
+
 }
 
 h1{
@@ -23,10 +40,21 @@ h1{
 }
 
 h2{
-	text-align: center;
 	width: 500px;
 	margin-top: -30px;
 	color: #E4F1FE;
+	color: #67809F;
+	font-family: Arial;
+	font-size: .8em;
+	font-weight: 100;
+	font-style: italic;
+}
+
+h3{
+	width: 500px;
+	margin-top: 0px;
+	color: #E4F1FE;
+	color: #67809F;
 	font-family: Arial;
 	font-size: .8em;
 	font-weight: 100;
@@ -100,6 +128,7 @@ outline: -webkit-focus-ring-color auto 0px;
 	display: block;
 	width:500px;
 	padding-top: 5px;
+	padding-bottom: 5px;
 	font-family: Garamond;
 	background-color: #E4F1FE;
 	margin-top: 20px;
@@ -109,7 +138,7 @@ outline: -webkit-focus-ring-color auto 0px;
 p{
 	margin-left: 20px;
 	margin-right: 20px;
-	font-family: arial;
+	font-family: Arial;
 	color: #22313F;
 	font-size: .9em;
 	line-height: 1.5em;
