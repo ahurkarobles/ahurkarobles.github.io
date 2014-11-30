@@ -22,6 +22,7 @@
 
 a{
 	text-decoration: none;
+	color: white;
 }
 
 ul.top-nav{
@@ -62,9 +63,18 @@ html{
 	display: block;
 	position: fixed;
 	z-index: -100;
-	margin: 80px 500px;
-
+	margin: 30px 500px;
 }
+
+.subSketch{
+	width:550px;
+	display: block;
+	position: fixed;
+	z-index: -100;
+	margin: 40px 500px;
+	opacity: .9;
+}
+
 
 .leftcontent{
 	width:400px;
@@ -72,13 +82,36 @@ html{
 
 }
 
-.ahr{
+h3{
+	margin-top: 80px;
+	width:400px;
+	position: relative;
+	float: center;
+	font-size: 5em;
+	font-family: League Gothic;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+h4{
+		font-family: Futura;
+		font-size: 1.2em;
+		text-align: left;
+		margin-left: 10px;
+	
+
+
+}
+
+/*.ahr{
 	margin-top: 80px;
 	width:350px;
 	position: relative;
 	float: center;
 
-}
+}*/
 
 p, h2{
 	font-family: Andada;
@@ -94,6 +127,7 @@ h2{
 font-size: 1.5em;
 	font-family: futura;
 	text-transform: uppercase;
+	margin-top: 30px;
 
 }	
 
@@ -195,11 +229,11 @@ font-size: 1.5em;
 		
 	}
 
-.centerimg img{
+/*.centerimg img{
 	display: block;
 	width:50%;
 	height:50%;
-}
+}*/
 
 span{
   position:absolute; 
@@ -217,3 +251,34 @@ span{
 }  
 
 
+/*FRESHWRAP*/
+
+html.freshTextHtml{
+	background-color: #C8F7C5;
+}
+
+img.freshImg1{
+	display: block;
+	margin-top: 0px;
+	width: 400px;
+
+}
+
+.freshSketch{
+	width:550px;
+	display: block;
+	position: fixed;
+	z-index: -100;
+	margin: 30px 500px;
+
+}
+
+/*womens ilab*/
+
+html.ilabHtml{
+	background-color: #C5EFF7;
+}
+
+html.sfchangeHtml{
+	background-color:#F1A9A0;
+}
