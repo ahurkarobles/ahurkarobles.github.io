@@ -162,7 +162,7 @@ h2.topH2{
 	}
 
 	p.caption{
-		font-family: gotham;
+		font-family: Arial;
 		text-align: center;
 		margin-top: 80%;
 		margin-left: 0px;
@@ -241,6 +241,8 @@ h2.topH2{
 		background-color:white;
 		border: solid 1px grey;
 			float:right;
+						background-image: url("img/purch-win8-logo.jpg")
+
 
 		
 		
@@ -302,6 +304,10 @@ html.sfchangeHtml{
 
 html.contactHtml{
 	background-color:#ffff7f;
+}
+
+html.purchHtml{
+	background-color: #DCC6E0;
 }
 
 footer{
