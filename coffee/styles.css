@@ -1,0 +1,66 @@
+img{
+	position: absolute;
+	z-index: -10;
+	margin-top: -40px;
+}
+
+h1{
+	font-family: pacifico;
+	color: #DEB887;
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: -5px;
+}
+
+.parent {
+	width:100%;
+	display: block;
+}
+
+.title {
+	width:100px;
+	margin: 0 auto;
+
+}
+
+h2{
+	font-family: League Gothic;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	color: white;
+	margin-top: -35px;
+	line-height: 1;
+	font-weight: 100;
+}
+
+ul{
+	color: #DEB887;
+	display: block;
+	background-color: #321A0B;
+	font-family: andada;
+	text-align: center;
+	word-spacing: 2em;
+	width: 100%;
+	margin-top: -20px;
+	margin-bottom: 50px;
+}
+
+li{
+	display: inline;
+}
+
+
+
+h3{
+color: #321A0B;
+}
+
+p{
+	font-family: andada;
+}
+
+footer{
+	color: #DEB887;
+	background-color: #321A0B;
+	text-align: center;
+}

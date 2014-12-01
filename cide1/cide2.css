@@ -1,0 +1,85 @@
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+
+
+html{
+	background-color: #64ba76;
+	font-size: 18px;
+}
+
+p {
+display: block;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+.topwrap{
+}
+
+li{
+	display: inline-block;
+}
+
+p.chalk{
+	font-family: eraser;
+	color: white;
+	font-size: 3em;
+}
+
+p.open{
+	font-family: opensans;
+	color: white;
+	font-size: 2em;
+	margin-left: 10px;
+}
+
+p.pnav{
+	font-family: opensans;
+	color: white;
+}
+
+.name{
+	position: relative;
+	float: left;
+	margin: 10px 0px 0px 10px;
+
+}
+
+.nav{
+	position: relative;
+	float: right;
+	margin: 45px 20px; 
+	word-spacing: 55px;
+}
+
+.bgimg{
+	max-width: 100%;
+}
+
+img.bgimg-img{
+	max-width: 100%;
+
+}
+
+.overpic{
+	max-width: 250px;
+}
+
+p.overpicp{
+	margin: -370px 0px 0px 10px;
+	font-family: opensans;
+	color: white;
+	font-size: 2em;
+	text-shadow: 4px 2px 4px black;
+
+
+}

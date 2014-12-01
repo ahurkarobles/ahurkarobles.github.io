@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Emblema+One);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:400,900);
+@import url(http://fonts.googleapis.com/css?family=Copse);
+
+body{
+	background-color: white;
+}
+
+ul{
+	-webkit-padding-start: 0px;
+}
+
+li.main-nav{
+ 		display:inline;
+ 		color:#E7F3EF;
+ 		font-family: Gotham, sans-sarif;
+ 		font-size: 1em;
+ 		padding-left: 20px;
+ 		text-transform: uppercase;
+
+ 		
+
+ 	}
+
+ 	li.logolist{
+ 		display:inline;
+ 			color:#E7F3EF;
+ 		padding: 30px;
+
+ 	}
+
+ 	img.logosmall{
+ 		width:50px;
+
+
+ 	}
+
+ 	img.logosmall:hover{
+ 		outline: white solid 1px;
+ 		outline-style: groove;
+
+ 	
+
+ 	}
+
+ 	#logos{
+ 		background-color:#73726D;
+ 		padding:1px;
+ 		width: 700px;
+ 		
+ 	}
+
+ 	li.main-nav:hover{
+ 		color:black;
+
+ 	}
+
+ 	#headbar{
+ 		background-color: #E24B2C;
+ 		padding:5px;
+ 		width: 700px;
+ 	}
+
+ 	#titlebar{
+ 		background-color:white;
+ 		padding:10px;
+ 		width: 700px;
+ 	}
+
+ 	h1{
+ 		font-family: Emblema One, sans-sarif;
+ 		font-size: 3em;
+ 		 		color: #8C6429;
+ 		margin-left:0;
+
+ 	}
+
+ 		
+ 
+
+ 	#whiteblock{
+ 		height:50px;
+ 		background-color: white; 
+ 	}
+
+ 		#headbartwo{
+ 		background-color: black;
+ 		padding:5px;
+ 		width: 700px;
+ 	}
+
+ 	li.main-navtwo{
+ 		display:inline;
+ 		color:white;
+ 		padding: 40px;
+ 		font-family: Alegreya SC, serif;
+font-size: 1.4em;
+ 		font-weight: 500;
+
+ 	}
+
+ 	#titlebartwo{
+ 		background-color:#392d27;
+ 		padding:10px;
+ 		width: 690px;
+ 	}
+
+ 	#logostwo{
+ 		background-color:#ede8df;
+ 		padding:1px;
+ 		width: 700px;
+ 		
+ 	}
+	li.logolisttwo{
+ 		display:inline;
+ 		margin-left: 40px;
+
+ 	}
+
+
+
+ 		h2{
+ 		font-size: 3em;
+ 		color: white;
+ 		font-family: Copse, serif;
+ 		padding:40px;
+
+ 	}
+
+	img.logosmalltwo{
+ 		width:40px;
+ 		border-radius: 10px;
+ 		background-color: #392d27;
+ 		padding: 2px;
+
+ 	} 	
+
+ 	li.main-navtwo:hover{
+ 		text-decoration: underline;
+
+ 	}
+
+ 		a.linktwo{
+
+ 	}
+
+
+
+ a.linkone {
+ 
+ }	
+
+
+
+ 	a.buttonclass{
+ 		padding:10px 30px 10px 30px;
+ 		border-radius: 5px;
+ 		background-color: #87D37C;
+ 		color:white;
+ 		text-transform: uppercase;
+ 		font-family: Gotham, sans-sarif;
+ 		text-decoration: none;
+ 	}
+

@@ -1,8 +1,19 @@
 
+#title{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 3em;
+	margin-left: 25px;
+}
+
 .product {
   min-height:250px;
 }
 
 .product img {
   float:left;
+}
+
+.description{
+	display:none;
 }

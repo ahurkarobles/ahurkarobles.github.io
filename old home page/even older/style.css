@@ -1,0 +1,156 @@
+
+
+ 
+ table { border: 1px solid black;
+ 	float:left;
+ 	width:148px;}
+
+ 	h1{
+ 		text-align: center;
+ 		color:white;
+ 		text-transform: uppercase;
+ 		font-family: Gotham, sans-sarif;
+ 	}
+
+ 	body{
+ 		 background-color: #3A539B;
+ 	}
+
+ 	div{
+ 		font-family:Helvetica, sans-sarif;
+ 		line-height: 25px;
+ 	}
+
+ 	p{
+ 		color:black;
+    font-family: 'Questrial', sans-serif;
+    
+ 	}
+
+	ul{
+		text-align: center;
+	}
+
+ 	li#main-nav{
+ 		display:inline;
+ 		color:white;
+ 		padding: 40px;
+ 		font-family: Gotham, sans-sarif;
+ 		text-transform: uppercase;
+ 		font-size: em1;
+ 		font-weight: 500;
+ 	}
+
+
+	.desc-left{
+		font-size: 1.2em;
+		float: left;
+		width:600px;
+		margin-left: 100px;
+}
+	
+
+	#first-wrap{
+
+		background: white;
+		padding-top: 100px;
+		padding-bottom:100px;
+		margin-right: 10px;
+		margin-left:10px;
+		display: inline-block;
+			    position: absolute;
+
+	}
+
+	#imgside-a{
+	width:250px;
+	 
+		 float: right;
+		border:solid 1px white;
+	}
+
+	#second-block{
+background:white;
+	padding-top: 50px;
+		padding-bottom:50px;
+	}
+
+		#third-block{
+background:white;
+	padding-top: 28px;
+		padding-bottom:28px;
+	}
+		#fourth-block{
+background:white;
+	padding-top: 100px;
+		padding-bottom:100px;
+	}
+	
+	.wrapper{
+	
+	}
+
+	#table_container
+ 	{width:300px;
+ 		margin-bottom: 50px;
+ 		margin-right: auto;
+ 		margin-left:auto;
+ 		display:block;
+ 	}
+
+#imgsize{
+	width:200px;
+	display:block;
+	margin:auto;
+	 border-radius: 100px;
+	 padding-bottom:10px;
+	}
+
+	
+
+		#imgside-b{
+	width:250px;
+	    position: absolute;
+    right: 150px;
+    top: 615px;
+		 padding: 25px 30px;
+		 width: 375px;
+		 float: left;
+		 display: inline-block;
+		 text-align: center;
+		 margin-bottom: 25px;
+		 margin-top: 10px;
+		border:solid 1px white;
+	}
+
+	#imgside-c{
+	width:250px;
+	    position: absolute;
+    right: 150px;
+    top: 880px;
+		 padding: 25px 30px;
+		 width: 375px;
+		 float: left;
+		 display: inline-block;
+		 text-align: center;
+		 margin-bottom: 25px;
+		 margin-top: 10px;
+		border:solid 1px white;
+	}
+
+	#imgside-d{
+	width:250px;
+	    position: absolute;
+    right: 150px;
+    top: 1150px;
+		 padding: 25px 30px;
+		 width: 375px;
+		 float: left;
+		 display: inline-block;
+		 text-align: center;
+		 margin-bottom: 25px;
+		 margin-top: 10px;
+		border:solid 1px white;
+	}
+
+
